@@ -6,6 +6,8 @@
 /**
   
     DúiToken - 3% to LP, 3% Distributed, 3t supply
+    
+    Join our Telegram - https://t.me/DuiCoinOfficial
 
  */
 
