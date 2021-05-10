@@ -4,8 +4,11 @@ DuiToken is
 
 ## Tokenomics
 
-### etc
-Check out ```DuiToken.sol```
+### 3% to LP, 3% to holders, 3t supply
+All logic is within the genesis smart contract ```DuiToken.sol``` the only external interaction with is the PancakeSwap V2 Router / LP.
+
+## Join Us
+[Join our telegram](https://t.me/DuiCoinOfficial)
 
 ## Licence
 
