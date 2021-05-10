@@ -7,8 +7,19 @@
   
     DúiToken - 3% to LP, 3% Distributed, 3t supply
     
-    Join our Telegram - https://t.me/DuiCoinOfficial
+    Join our Telegram - t.me/DuiCoinOfficial
 
+    $DÚINOMICS
+    Made for an eternal PUMP.
+
+    $DÚI tokenomics are based on 4 main strengths:
+    . EARNINGS FOR GOOD OWNERS
+    . Scarcity and rarity
+    . Price empowerment
+    . Fair transactions
+
+    Read more on how to take care of $DÚI @ DuiCrypto.com
+    
  */
 
 // SPDX-License-Identifier: Apache-2.0
@@ -745,9 +756,9 @@ contract DuiToken is Context, IBEP20, Ownable {
     
     constructor () public {
         _rOwned[_msgSender()] = _rTotal;
+        // Dev Note:
         // 0x10ED43C718714eb63d5aA57B78B54704E256024E PancakeSwap: Router v2
         // 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F PackakeSwap: Router old - liq rewards no longer function
-        // IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0xD99D1c33F9fC3444f8101754aBC46c52416550D1); // TESTNET PancakeSwap: Router v1
         IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x10ED43C718714eb63d5aA57B78B54704E256024E);
          // Create a uniswap pair for this new token
         uniswapV2Pair = IUniswapV2Factory(_uniswapV2Router.factory()) 
