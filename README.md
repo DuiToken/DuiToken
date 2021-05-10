@@ -1,6 +1,6 @@
 # DuiToken
 
-DuiToken is
+DuiToken is 
 
 ## Tokenomics
 
