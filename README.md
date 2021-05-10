@@ -14,7 +14,7 @@ $DÚI tokenomics are based on 4 main strengths:
 
 Read more on how to take care of $DÚI @ DuiCrypto.com
 
-### 3% to LP, 3% to holders, 3t supply
+### xx
 All logic is within the genesis smart contract ```DuiToken.sol``` the only external interaction with is the PancakeSwap V2 Router / LP.
 
 ## Join Us
