@@ -18,7 +18,7 @@ Read more on how to take care of $DÚI @ DuiCrypto.com
 All logic is within the genesis smart contract ```DuiToken.sol``` the only external interaction with is the PancakeSwap V2 Router / LP.
 
 ## Repo Notes
-[DuiToken Respository Root Folder](https://github.com/DuiToken/DuiToken)
+[DuiToken Respository Root](https://github.com/DuiToken/DuiToken)
 
 ## Join Us
 [Join our telegram](https://t.me/DuiCoinOfficial)
