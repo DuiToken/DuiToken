@@ -919,7 +919,7 @@ contract DuiToken is Context, IBEP20, Ownable {
         emit SwapAndLiquifyEnabledUpdated(_enabled);
     }    
     
-     //to recieve ETH from uniswapV2Router when swaping
+     //to recieve ETH from uniswapV2Router when swapping
     receive() external payable {}
 
     function _reflectFee(uint256 rFee, uint256 tFee) private {
