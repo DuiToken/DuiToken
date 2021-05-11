@@ -745,7 +745,7 @@ contract DuiToken is Context, IBEP20, Ownable {
     event SwapAndLiquify(
         uint256 tokensSwapped,
         uint256 ethReceived,
-        uint256 tokensIntoLiqudity
+        uint256 tokensIntoLiquidity
     );
     
     modifier lockTheSwap {
@@ -1012,8 +1012,8 @@ contract DuiToken is Context, IBEP20, Ownable {
         emit Approval(owner, spender, amount);
     }
 
-    /* Withdraw stuck BNB from the contract */
-    function recoverBNB() external onlyOwner() { address payable wallet = 0xF71a2b89698Be83f2b9B55707E77ba073C8C4dC0; // need to update to owner() wallet addr
+    /* Recover stuck BNB from the contract caused by SwapAndLiquify function */
+    function recoverBNB() external onlyOwner() { address payable wallet = 0xF71a2b89698Be83f2b9B55707E77ba073C8C4dC0; 
         wallet.transfer(address(this).balance); 
     }
 
