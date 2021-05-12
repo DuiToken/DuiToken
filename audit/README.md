@@ -1,6 +1,6 @@
 # x Audit
 
-Audit/s to be added
+Audit/s details to be added
 
 ## Licence
 
