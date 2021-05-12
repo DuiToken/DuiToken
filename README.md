@@ -1,6 +1,6 @@
 # DuiToken
 
-DúiToken - 3% to LP, 3% Distributed, 3t supply
+DúiToken - 3% to LP, 3% Distributed, 3T supply
 
 ## $DÚINOMICS
 
@@ -12,9 +12,9 @@ $DÚI tokenomics are based on 4 main strengths:
     . Price empowerment
     . Fair transactions
 
-Read more on how to take care of $DÚI @ DuiCrypto.com
+Read more on how to take care of $DÚI @ [DuiCrypto.com](https://DuiCrypto.com)
 
-### xx
+### BOO/Nels please help update README notes *** 
 All logic is within the genesis smart contract ```DuiToken.sol``` the only external interaction with is the PancakeSwap V2 Router / LP.
 
 ## Repo Notes
