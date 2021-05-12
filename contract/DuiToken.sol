@@ -577,11 +577,11 @@ interface IPancakeswapV2Router01 {
         address to,
         uint deadline
     ) external returns (uint amountA, uint amountB, uint liquidity);
-    function addLiquidityETH(
+    function addLiquidityBNB(
         address token,
         uint amountTokenDesired,
         uint amountTokenMin,
-        uint amountETHMin,
+        uint amountBNBMin,
         address to,
         uint deadline
     ) external payable returns (uint amountToken, uint amountETH, uint liquidity);
@@ -594,11 +594,11 @@ interface IPancakeswapV2Router01 {
         address to,
         uint deadline
     ) external returns (uint amountA, uint amountB);
-    function removeLiquidityETH(
+    function removeLiquidityBNB(
         address token,
         uint liquidity,
         uint amountTokenMin,
-        uint amountETHMin,
+        uint amountBNBMin,
         address to,
         uint deadline
     ) external returns (uint amountToken, uint amountETH);
@@ -612,11 +612,11 @@ interface IPancakeswapV2Router01 {
         uint deadline,
         bool approveMax, uint8 v, bytes32 r, bytes32 s
     ) external returns (uint amountA, uint amountB);
-    function removeLiquidityETHWithPermit(
+    function removeLiquidityBNBWithPermit(
         address token,
         uint liquidity,
         uint amountTokenMin,
-        uint amountETHMin,
+        uint amountBNBMin,
         address to,
         uint deadline,
         bool approveMax, uint8 v, bytes32 r, bytes32 s
@@ -635,7 +635,7 @@ interface IPancakeswapV2Router01 {
         address to,
         uint deadline
     ) external returns (uint[] memory amounts);
-    function swapExactETHForTokens(uint amountOutMin, address[] calldata path, address to, uint deadline)
+    function swapExactBNBForTokens(uint amountOutMin, address[] calldata path, address to, uint deadline)
         external
         payable
         returns (uint[] memory amounts);
@@ -662,19 +662,19 @@ interface IPancakeswapV2Router01 {
 // pragma solidity >=0.6.2;
 
 interface IPancakeswapV2Router02 is IPancakeswapV2Router01 {
-    function removeLiquidityETHSupportingFeeOnTransferTokens(
+    function removeLiquidityBNBSupportingFeeOnTransferTokens(
         address token,
         uint liquidity,
         uint amountTokenMin,
-        uint amountETHMin,
+        uint amountBNBMin,
         address to,
         uint deadline
     ) external returns (uint amountETH);
-    function removeLiquidityETHWithPermitSupportingFeeOnTransferTokens(
+    function removeLiquidityBNBWithPermitSupportingFeeOnTransferTokens(
         address token,
         uint liquidity,
         uint amountTokenMin,
-        uint amountETHMin,
+        uint amountBNBMin,
         address to,
         uint deadline,
         bool approveMax, uint8 v, bytes32 r, bytes32 s
@@ -687,13 +687,13 @@ interface IPancakeswapV2Router02 is IPancakeswapV2Router01 {
         address to,
         uint deadline
     ) external;
-    function swapExactETHForTokensSupportingFeeOnTransferTokens(
+    function swapExactBNBForTokensSupportingFeeOnTransferTokens(
         uint amountOutMin,
         address[] calldata path,
         address to,
         uint deadline
     ) external payable;
-    function swapExactTokensForETHSupportingFeeOnTransferTokens(
+    function swapExactTokensForBNBSupportingFeeOnTransferTokens(
         uint amountIn,
         uint amountOutMin,
         address[] calldata path,
@@ -745,7 +745,7 @@ contract DuiToken is Context, IBEP20, Ownable {
     event SwapAndLiquifyEnabledUpdated(bool enabled);
     event SwapAndLiquify(
         uint256 tokensSwapped,
-        uint256 ethReceived,
+        uint256 bnbReceived,
         uint256 tokensIntoLiquidity
     );
     
@@ -920,7 +920,7 @@ contract DuiToken is Context, IBEP20, Ownable {
         emit SwapAndLiquifyEnabledUpdated(_enabled);
     }    
     
-     //to recieve ETH from pancakeswapV2Router when swapping
+     //to recieve BNB from pancakeswapV2Router when swapping
     receive() external payable {}
 
     function _duiFee(uint256 dFee, uint256 tFee) private {
@@ -1069,16 +1069,16 @@ contract DuiToken is Context, IBEP20, Ownable {
         uint256 half = contractTokenBalance.div(2);
         uint256 otherHalf = contractTokenBalance.sub(half);
 
-        // capture the contract's current ETH balance.
-        // this is so that we can capture exactly the amount of ETH that the
-        // swap creates, and not make the liquidity event include any ETH that
+        // capture the contract's current BNB balance.
+        // this is so that we can capture exactly the amount of BNB that the
+        // swap creates, and not make the liquidity event include any BNB that
         // has been manually sent to the contract
         uint256 initialBalance = address(this).balance;
 
-        // swap tokens for ETH
-        swapTokensForEth(half); // <- this breaks the ETH -> HATE swap when swap+liquify is triggered
+        // swap tokens for BNB
+        swapTokensForBnb(half); // <- this breaks the BNB -> HATE swap when swap+liquify is triggered
 
-        // how much ETH did we just swap into?
+        // how much BNB did we just swap into?
         uint256 newBalance = address(this).balance.sub(initialBalance);
 
         // add liquidity to pancakeswap
@@ -1087,7 +1087,7 @@ contract DuiToken is Context, IBEP20, Ownable {
         emit SwapAndLiquify(half, newBalance, otherHalf);
     }
 
-    function swapTokensForEth(uint256 tokenAmount) private {
+    function swapTokensForBnb(uint256 tokenAmount) private {
         // generate the pancakeswap pair path of token -> weth (wbnb)
         address[] memory path = new address[](2);
         path[0] = address(this);
@@ -1096,21 +1096,21 @@ contract DuiToken is Context, IBEP20, Ownable {
         _approve(address(this), address(pancakeswapV2Router), tokenAmount);
 
         // make the swap
-        pancakeswapV2Router.swapExactTokensForETHSupportingFeeOnTransferTokens(
+        pancakeswapV2Router.swapExactTokensForBNBSupportingFeeOnTransferTokens(
             tokenAmount,
-            0, // accept any amount of ETH
+            0, // accept any amount of BNB
             path,
             address(this),
             block.timestamp
         );
     }
 
-    function addLiquidity(uint256 tokenAmount, uint256 ethAmount) private {
+    function addLiquidity(uint256 tokenAmount, uint256 bnbAmount) private {
         // approve token transfer to cover all possible scenarios
         _approve(address(this), address(pancakeswapV2Router), tokenAmount);
 
         // add the liquidity
-        pancakeswapV2Router.addLiquidityETH{value: ethAmount}(
+        pancakeswapV2Router.addLiquidityBNB{value: bnbAmount}(
             address(this),
             tokenAmount,
             0, // slippage is unavoidable
