@@ -639,10 +639,10 @@ interface IPancakeswapV2Router01 {
         external
         payable
         returns (uint[] memory amounts);
-    function swapTokensForExactETH(uint amountOut, uint amountInMax, address[] calldata path, address to, uint deadline)
+    function swapTokensForExactBNB(uint amountOut, uint amountInMax, address[] calldata path, address to, uint deadline)
         external
         returns (uint[] memory amounts);
-    function swapExactTokensForETH(uint amountIn, uint amountOutMin, address[] calldata path, address to, uint deadline)
+    function swapExactTokensForBNB(uint amountIn, uint amountOutMin, address[] calldata path, address to, uint deadline)
         external
         returns (uint[] memory amounts);
     function swapETHForExactTokens(uint amountOut, address[] calldata path, address to, uint deadline)
@@ -763,7 +763,7 @@ contract DuiToken is Context, IBEP20, Ownable {
         IPancakeswapV2Router02 _pancakeswapV2Router = IPancakeswapV2Router02(_pancakeRouterAddr);
          // Create a pancakeswap pair for this new token
         pancakeswapV2Pair = IPancakeswapV2Factory(_pancakeswapV2Router.factory()) 
-            .createPair(address(this), _pancakeswapV2Router.WETH());
+            .createPair(address(this), _pancakeswapV2Router.WETH()); 
 
         // set the rest of the contract variables
         pancakeswapV2Router = _pancakeswapV2Router;
