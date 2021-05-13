@@ -584,7 +584,7 @@ interface IPancakeswapV2Router01 {
         uint amountBNBMin,
         address to,
         uint deadline
-    ) external payable returns (uint amountToken, uint amountETH, uint liquidity);
+    ) external payable returns (uint amountToken, uint amountBNB, uint liquidity);
     function removeLiquidity(
         address tokenA,
         address tokenB,
@@ -601,7 +601,7 @@ interface IPancakeswapV2Router01 {
         uint amountBNBMin,
         address to,
         uint deadline
-    ) external returns (uint amountToken, uint amountETH);
+    ) external returns (uint amountToken, uint amountBNB);
     function removeLiquidityWithPermit(
         address tokenA,
         address tokenB,
@@ -620,7 +620,7 @@ interface IPancakeswapV2Router01 {
         address to,
         uint deadline,
         bool approveMax, uint8 v, bytes32 r, bytes32 s
-    ) external returns (uint amountToken, uint amountETH);
+    ) external returns (uint amountToken, uint amountBNB);
     function swapExactTokensForTokens(
         uint amountIn,
         uint amountOutMin,
@@ -645,7 +645,7 @@ interface IPancakeswapV2Router01 {
     function swapExactTokensForBNB(uint amountIn, uint amountOutMin, address[] calldata path, address to, uint deadline)
         external
         returns (uint[] memory amounts);
-    function swapETHForExactTokens(uint amountOut, address[] calldata path, address to, uint deadline)
+    function swapBNBForExactTokens(uint amountOut, address[] calldata path, address to, uint deadline)
         external
         payable
         returns (uint[] memory amounts);
@@ -669,7 +669,7 @@ interface IPancakeswapV2Router02 is IPancakeswapV2Router01 {
         uint amountBNBMin,
         address to,
         uint deadline
-    ) external returns (uint amountETH);
+    ) external returns (uint amountBNB);
     function removeLiquidityBNBWithPermitSupportingFeeOnTransferTokens(
         address token,
         uint liquidity,
@@ -678,7 +678,7 @@ interface IPancakeswapV2Router02 is IPancakeswapV2Router01 {
         address to,
         uint deadline,
         bool approveMax, uint8 v, bytes32 r, bytes32 s
-    ) external returns (uint amountETH);
+    ) external returns (uint amountBNB);
 
     function swapExactTokensForTokensSupportingFeeOnTransferTokens(
         uint amountIn,
