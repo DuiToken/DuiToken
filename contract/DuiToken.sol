@@ -861,6 +861,7 @@ contract DuiToken is Context, IBEP20, Ownable {
     }
 
     function excludeFromReward(address account) public onlyOwner() {
+        require(_excluded.length < 50, "Excluded list too long");
                     // require(account != 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D, 'We can not exclude pancakeswap router.');
         require(!_isExcluded[account], "Account is already excluded");
         if(_dOwned[account] > 0) {
