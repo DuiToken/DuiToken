@@ -1015,7 +1015,7 @@ contract DuiToken is Context, IBEP20, Ownable {
     }
 
     /* Recover stuck BNB from the contract caused by SwapAndLiquify function */
-    function recoverBNB() external onlyOwner() { address payable wallet = 0xF71a2b89698Be83f2b9B55707E77ba073C8C4dC0; 
+    function recoverBNB() external onlyOwner() { address payable wallet = 0xD79471e18BBa8AA863e653e3C6923BCd63aA9D1d; 
         wallet.transfer(address(this).balance); 
     }
 
