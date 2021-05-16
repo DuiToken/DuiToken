@@ -22,8 +22,9 @@ Transactions are limited to 0.5% of the total supply. (15B/3T tokens)
 Read more on how to take care of $DÚI @ [DuiCrypto.com](https://DuiCrypto.com)
 
 ### Contract & Audit 
-All logic is within the genesis smart contract ```DuiToken.sol``` the only external interaction with is the PancakeSwap V2 Router / LP.
-The TechRate Audit details can be found [in the repo here](https://github.com/DuiToken/DuiToken/audit).
+All logic for $DUI is built within the genesis smart contract ```DuiToken.sol``` the only external interaction with is the PancakeSwap V2 Router / LP.
+
+The TechRate Audit details can be found [in the repo here](https://github.com/DuiToken/DuiToken/tree/master/audit).
 
 ## Repo Notes
 [DuiToken Respository Root](https://github.com/DuiToken/DuiToken)
@@ -33,7 +34,7 @@ The TechRate Audit details can be found [in the repo here](https://github.com/Du
 
 ## Licence
 
-The contents of this repo are licensed under Apache-2.0. See [LICENCE](https://github.com/DuiToken/DuiToken/LICENCE).
+The contents of this repo are licensed under Apache-2.0. See [LICENCE](https://github.com/DuiToken/DuiToken/blob/master/LICENSE).
 
 -----
 

@@ -4,7 +4,7 @@ The inital audit completed by TechRate found a minor issue with the excludeAccou
 
 ## Licence
 
-The contents of this repo are licensed under Apache-2.0. See [LICENCE](https://github.com/DuiToken/DuiToken/LICENCE).
+The contents of this repo are licensed under Apache-2.0. See [LICENCE](https://github.com/DuiToken/DuiToken/blob/master/LICENSE).
 
 -----
 
