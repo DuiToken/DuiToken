@@ -1,6 +1,6 @@
-# x Audit
+# DuiToken Audit
 
-Audit/s details to be added
+The inital audit completed by TechRate found a minor issue with the excludeAccount function, we resolved this prior to launch & have published the revised audit here.
 
 ## Licence
 
