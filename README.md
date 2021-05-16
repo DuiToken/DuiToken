@@ -12,10 +12,18 @@ $DÚI tokenomics are based on 4 main strengths:
     . Price empowerment
     . Fair transactions
 
+Each transaction of $DÚI generates Passive Income to the holders.
+3% of all transactions (transfers, buys and sells) go back to the holders, and the size of your REWARD is proportional to the size of your bag. 
+That is: The more you hold, the more you earn.
+
+The Total Supply is 3,000,000,000,000 $DUI.
+Transactions are limited to 0.5% of the total supply. (15B/3T tokens)
+
 Read more on how to take care of $DÚI @ [DuiCrypto.com](https://DuiCrypto.com)
 
-### BOO/Nels please help update README notes *** 
+### Contract & Audit 
 All logic is within the genesis smart contract ```DuiToken.sol``` the only external interaction with is the PancakeSwap V2 Router / LP.
+The TechRate Audit details can be found [in the repo here](https://github.com/DuiToken/DuiToken/audit).
 
 ## Repo Notes
 [DuiToken Respository Root](https://github.com/DuiToken/DuiToken)
