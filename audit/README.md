@@ -1,6 +1,8 @@
 # DuiToken Audit
 
-The inital audit completed by TechRate found a minor issue with the excludeAccount function, we resolved this prior to launch & have published the revised audit here.
+The inital audit completed by TechRate found a minor issue (The function ```includeInReward``` uses a loop to find and remove addresses from the ```_excluded``` list. We added a hard limit to mitigate for any possible gas error if excluding too many wallets). 
+
+We resolved this prior to launch & have published the revised audit here.
 
 ## Licence
 
