@@ -23,7 +23,7 @@ Transactions are limited to 0.5% of the total supply. (15B/3T tokens)
 
 Read more on how to take care of $DÚI @ [DuiCrypto.com](https://DuiCrypto.com)
 
-![Dui](https://github.com/DuiToken/DuiToken/blob/master/assets/Dui.png)
+![Dui](https://github.com/DuiToken/DuiToken/blob/master/assets/Dui2.jpg)
 
 ### Contract & Audit 
 All logic for $DUI is built within the genesis smart contract ```DuiToken.sol``` the only external interaction with is the PancakeSwap V2 Router / LP.
