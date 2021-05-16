@@ -34,7 +34,7 @@ The TechRate Audit details can be found [in the repo here](https://github.com/Du
 [DuiToken Respository Root](https://github.com/DuiToken/DuiToken)
 
 ## Join Us
-[Join our telegram](https://t.me/DuiCoinOfficial)
+[Join our telegram](https://t.me/DuiCoinOfficial) to be the first in the know about any news!
 
 ## Licence
 
