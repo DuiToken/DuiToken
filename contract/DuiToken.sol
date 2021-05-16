@@ -793,7 +793,7 @@ contract DuiToken is Context, IBEP20, Ownable {
 
     function balanceOf(address account) public view override returns (uint256) {
         if (_isExcluded[account]) return _tOwned[account];
-        return tokenFromReflection(_dOwned[account]);
+        return tokenFromDui(_dOwned[account]);
     }
 
     function transfer(address recipient, uint256 amount) public override returns (bool) {
@@ -843,7 +843,7 @@ contract DuiToken is Context, IBEP20, Ownable {
         _tFeeTotal = _tFeeTotal.add(tAmount);
     }
 
-    function reflectionFromToken(uint256 tAmount, bool deductTransferFee) public view returns(uint256) {
+    function duitFromToken(uint256 tAmount, bool deductTransferFee) public view returns(uint256) {
         require(tAmount <= _tTotal, "Amount must be less than supply");
         if (!deductTransferFee) {
             (uint256 dAmount,,,,,) = _getValues(tAmount);
@@ -854,8 +854,8 @@ contract DuiToken is Context, IBEP20, Ownable {
         }
     }
 
-    function tokenFromReflection(uint256 dAmount) public view returns(uint256) {
-        require(dAmount <= _dTotal, "Amount must be less than total reflections");
+    function tokenFromDui(uint256 dAmount) public view returns(uint256) {
+        require(dAmount <= _dTotal, "Amount must be less than total duits");
         uint256 currentRate =  _getRate();
         return dAmount.div(currentRate);
     }
@@ -865,7 +865,7 @@ contract DuiToken is Context, IBEP20, Ownable {
                     // require(account != 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D, 'We can not exclude pancakeswap router.');
         require(!_isExcluded[account], "Account is already excluded");
         if(_dOwned[account] > 0) {
-            _tOwned[account] = tokenFromReflection(_dOwned[account]);
+            _tOwned[account] = tokenFromDui(_dOwned[account]);
         }
         _isExcluded[account] = true;
         _excluded.push(account);
