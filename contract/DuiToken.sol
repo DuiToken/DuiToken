@@ -4,7 +4,7 @@
 */
 
 /**
-  
+
     DúiToken - 3% to LP, 3% Distributed, 3t supply
     
     Join our Telegram - t.me/DuiCoinOfficial
@@ -17,6 +17,12 @@
     . Scarcity and rarity
     . Price empowerment
     . Fair transactions
+
+    Each transaction of $DÚI generates Passive Income to the holders. 3% of all transactions (transfers, buys and sells) go back to the holders, and the size of your REWARD is proportional to the size of your bag. That is: The more you hold, the more you earn.
+
+    3% of all transactions are automatically sent to the liquidity pool to ensure more sustainable prices & liquidity moving forward. (/Encourage higher bottoms & tops)
+
+    The Total Supply is 3,000,000,000,000 $DUI. Transactions are limited to 0.5% of the total supply. (15B/3T tokens)
 
     Read more on how to take care of $DÚI @ DuiCrypto.com
     
