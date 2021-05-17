@@ -1,7 +1,7 @@
 # DúiToken Project Development
 
 ## Roadmap
-[You can view our roadmap here](https://DuiCrypto.com/roadmap).
+[You can view our roadmap on the website](https://DuiCrypto.com/). This will be updated as we progress.
 
 ### Development Transparency
 We are currently in the early development phase for our dApp ecosystem, the repositories will be made public as development progresses to a further stage.
