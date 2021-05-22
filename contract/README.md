@@ -35,7 +35,7 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 - Team Wallet excluded from fee - [TXN: 0x3130167960c9a47c0f8d4cc62353205d707f6973337ab222c17b658361e09b25](https://bscscan.com/tx/0x3130167960c9a47c0f8d4cc62353205d707f6973337ab222c17b658361e09b25)
 - Team Wallet excluded from reward - [TXN: 0xc0225bcfacac33193ef6163fbddaea8bac6f58f3429030fd55eceef223d63683](https://bscscan.com/tx/0xc0225bcfacac33193ef6163fbddaea8bac6f58f3429030fd55eceef223d63683) (will undo in 3mo when unlocking tokens if we are going to remove them to the wallet at that time)
 - Marketing Wallet excluded from fee - [TXN: 0xd5598555588b37bf24452aceecfe87e4a5fbcbf7726e7d3bd7c87e6f2b59a3be](https://bscscan.com/tx/0xd5598555588b37bf24452aceecfe87e4a5fbcbf7726e7d3bd7c87e6f2b59a3be)
-- Team Wallet Tokens locked in Unicrypt - https://bscscan.com/tx/0x9bb6fa5c0e436ebc73e399dcd6257d8b78288114db0a27f11ace6cf33022cdf6
+- Team Wallet Tokens locked in Unicrypt - [TXN: 0x9bb6fa5c0e436ebc73e399dcd6257d8b78288114db0a27f11ace6cf33022cdf6](https://bscscan.com/tx/0x9bb6fa5c0e436ebc73e399dcd6257d8b78288114db0a27f11ace6cf33022cdf6)
 - Charity Wallet excluded from fee - [TXN: 0x807b122000082cb939f7e36fad1729afba2e5fed757e50e7a3b12164da25a1ef](https://bscscan.com/tx/0x807b122000082cb939f7e36fad1729afba2e5fed757e50e7a3b12164da25a1ef)
 
 LP, Team, Marketing, Charity sent. Team funds locked until 22 August 2021. Need smart contract for LP wallet.
