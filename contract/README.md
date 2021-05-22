@@ -23,7 +23,7 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 
 : Team Wallet : [0x52BD91dC11018ccf31e22F494A1A73BADBA3248f](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0x52BD91dC11018ccf31e22F494A1A73BADBA3248f)
 2.4346% Supply (tokens locked via unicrypt for 3 months)
-(Total is 73036520113.5-0.35%(unicrypt fee)=72780892293.1 tokens, locked for 3 months - you can see the tokens in the contract [here](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0xeaed594b5926a7d5fbbc61985390baaf936a6b8d2) or in the [$DUI holders](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba#balances))
+(Total is 73036520113.5-0.35%(unicrypt fee)=72780892293.1 tokens, locked for 3 months - you can see the tokens in the contract [here](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0xeaed594b5926a7d5fbbc61985390baaf936a6b8d) or in the [$DUI holders](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba#balances))
 
 : Marketing Wallet : [0x4632156900191A274B8e14B590E85d7cbB7A8b24](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0x4632156900191a274b8e14b590e85d7cbb7a8b24)
 2.4346% Supply 
