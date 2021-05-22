@@ -4,11 +4,51 @@ All logic for $DUI is built within the genesis smart contract ```DuiToken.sol```
 
 The TechRate Audit details can be found [in the repo here](https://github.com/DuiToken/DuiToken/tree/master/audit).
 
+## Triex Notes
+
 - At this point it seems like there was an issue with deploying part of the ```swapAndLiquify``` function when the token contract was spun up, could also be something to do with DXSale - I have come across this issue once during testing prior to launch, the contract was tested with LP in Pancakeswap multiple times, and all functions worked correctly. We also created another identical deployment with a different name which ran without issue, following the launch.
 The functioning identical copy/test token can be found [here](https://bscscan.com/token/0x1fcc1d84601ba90c1b86170c25246eb74db448dc), created by the $DUI owner wallet.
 ~ noted 18/5/21
-- Re: the above issue - We are working on possible solutions for the ```swapAndLiquify``` function, however if unable to resolve - it will instead be turned into a positive for the project, this does not affect the long term plans for $DUI at all. If this is the case, it means the token no longer will have a Liquidity Pool+Holder Reward tax, and is able to become purely a Holder Reward token. The final holder reward % would be brought to a community vote. The team also have other solutions for the LP outside of ```swapAndLiquify``` which would be announced.
+- Re: the deployment issue - We are working on possible solutions for the ```swapAndLiquify``` function, however if unable to resolve - it will instead be turned into a positive for the project, this does not affect the long term plans for $DUI at all. If this is the case, it means the token no longer will have a Liquidity Pool+Holder Reward tax, and is able to become purely a Holder Reward token. The final holder reward % would be brought to a community vote. The team also have other solutions for the LP outside of ```swapAndLiquify``` which would be announced.
 ~ noted 19/5/21
+- There are some rumours and accusations of wrongdoing during our launch, I wanted to address a few concerns I've been approached about and seen mentioned in the community : I accidentally set the Tax Percent to 100% for a moment, instead of the MaxTx - this stopped trading same as the ```swapAndLiquify``` function, this happened during a panic moment when things were high pressure, I was trying every variable/parameter that could possibly be affecting things (sadly there was nothing in contract that could resolve it, so we went for just making it run) my Telegram/phone was getting flooded with hundreds of death threats, angry messages & calls throughout the entire process (damn, $DUI hyped hard for launch eh?). There was also an issue with my wallet having pending transactions, which took a minute or so. This was resolved immediately after. All of these issues were primarily caused by the ```swapAndLiquify``` function causing ALL transactions to break (regular send + pcs etc). I also want to note - my personal and professional identity is publicly linked to this project, and $DUI has long term goals, the team did not, and will not do anything to jeopordise trust in the project intentionally - in my view it makes no sense for a long term project to do something like that. > Let's turn the issue with the contract into a huge positive for holders instead!
+~ noted 21/5/21
+- $DUI will become/rebrand as a Holder Reward token, utilising the ```tokenFromDui``` and ```duitFromToken``` functions every TX distributes 3% instantly to all holders, proportionate to the amount they hold (final % to be set by community vote). We have solutions and the token distro you can read in the 'Team Token Distribution' section below. The LP wallet helps solve the lost liquidity tax, and allows to give more to holders instead. Noting roughly during process - to be adjusted as finalised.
+~ noted 22/5/21
+
+### Team Token Distribution
+
+: LP Wallet : [0xdB0A4cFCddB3A666c2DB554B34A9e51D8A95F3D0](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0xdb0a4cfcddb3a666c2db554b34a9e51d8a95f3d0)
+2.4346% Supply 
+
+: Team Wallet : [0x52BD91dC11018ccf31e22F494A1A73BADBA3248f](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0x52BD91dC11018ccf31e22F494A1A73BADBA3248f)
+2.4346% Supply (tokens locked via unicrypt for 3 months)
+(Total is 73036520113.5-0.35%(unicrypt fee)=72780892293.1 tokens, locked for 3 months - you can see the tokens in the contract [here](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0xeaed594b5926a7d5fbbc61985390baaf936a6b8d2) or in the [$DUI holders](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba#balances))
+
+: Marketing Wallet : [0x4632156900191A274B8e14B590E85d7cbB7A8b24](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0x4632156900191a274b8e14b590e85d7cbb7a8b24)
+2.4346% Supply 
+
+: Charity Wallet : 0x
+2.4346% Supply 
+
+- LP Wallet excluded from fee - [TXN: 0x423899780ef66280feea0a25a97d07139509cecc170f09d937f5a290972e9646](https://bscscan.com/tx/0x423899780ef66280feea0a25a97d07139509cecc170f09d937f5a290972e9646)
+- Team Wallet excluded from fee - [TXN: 0x3130167960c9a47c0f8d4cc62353205d707f6973337ab222c17b658361e09b25](https://bscscan.com/tx/0x3130167960c9a47c0f8d4cc62353205d707f6973337ab222c17b658361e09b25)
+- Team Wallet excluded from reward - [TXN: 0xc0225bcfacac33193ef6163fbddaea8bac6f58f3429030fd55eceef223d63683](https://bscscan.com/tx/0xc0225bcfacac33193ef6163fbddaea8bac6f58f3429030fd55eceef223d63683) (will undo in 3mo when unlocking tokens if we are going to remove them to the wallet at that time)
+- Marketing Wallet excluded from fee - [TXN: 0xd5598555588b37bf24452aceecfe87e4a5fbcbf7726e7d3bd7c87e6f2b59a3be](https://bscscan.com/tx/0xd5598555588b37bf24452aceecfe87e4a5fbcbf7726e7d3bd7c87e6f2b59a3be)
+- Team Wallet Tokens locked in Unicrypt - https://bscscan.com/tx/0x9bb6fa5c0e436ebc73e399dcd6257d8b78288114db0a27f11ace6cf33022cdf6
+- Charity Wallet excluded from fee - TXN:
+
+LP, Team, Marketing sent. Awaiting charity address. Team funds locked until 22 August 2021. Need smart contract for LP wallet.
+
+- 73036520113.5 $DUI [sent to LP Wallet](https://bscscan.com/tx/0xbc42234d56ad38ea4e90f685c9cc2523b90ee4276db9060034edd7a8927cf41d)
+- 73036520113.5 $DUI [sent to Team Wallet](https://bscscan.com/tx/0x90c5ce372014afcf1cd2a6eaffa1912b5c93a2f89f74dc16a067a4d5ffade8f3)
+- 73036520113.5 $DUI [sent to Marketing Wallet](https://bscscan.com/tx/0xa58d20d475bc4d23068190166b6e59ae76daea5431ed6713b0a50673fe08bff4)
+- 73037115594.989 $DUI sent to Charity Wallet - 
+
+In the [Token Contract](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0x8943b6d1677a4addbe5aa58f429e11e856746fba) there is 243,687,627,873.814151461 $DUI, or approx 7% of the supply stuck/burned from an issue during launch. We do not have any function in the contract that allows us to withdraw BEP20 tokens, only stuck BNB - because this has never occured during testing. This allows us to start off with a lower supply then initially anticipated. We have also asked TechRate, and others to look into and confirm this, we intend to have a secondary audit + around the ```swapAndLiquify``` issue so that we can release a proper technical breakdown.
+
+There is also a progressive burn - we sent 90,000,000,000 $DUI (3%/supply) to the BSC universal burning wallet ```0x0000000000000000000000000000000000000001``` - you can see this growing [here](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0x0000000000000000000000000000000000000001) . At time of this note it is at 94,639,177,187.849053671 $DUI . This causes $DUI to be more and more deflationary over time as we have no ability to mint new tokens .
+
 
 ## Licence
 
