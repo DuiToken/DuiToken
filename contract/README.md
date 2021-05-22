@@ -1,4 +1,4 @@
-# DúiToken Contract
+# DúiToken Contract & Related Notes
 
 All logic for $DUI is built within the genesis smart contract ```DuiToken.sol``` the only external interaction with is the PancakeSwap V2 Router / LP.
 
@@ -19,7 +19,7 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ### Team Token Distribution
 
 : LP Wallet : [0xdB0A4cFCddB3A666c2DB554B34A9e51D8A95F3D0](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0xdb0a4cfcddb3a666c2db554b34a9e51d8a95f3d0)
-2.4346% Supply 
+2.4346% Supply (still need to finalise smart contract to automate LP sending, otherwise will do this manually for the moment)
 
 : Team Wallet : [0x52BD91dC11018ccf31e22F494A1A73BADBA3248f](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0x52BD91dC11018ccf31e22F494A1A73BADBA3248f)
 2.4346% Supply (tokens locked via unicrypt for 3 months)
@@ -28,7 +28,7 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 : Marketing Wallet : [0x4632156900191A274B8e14B590E85d7cbB7A8b24](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0x4632156900191a274b8e14b590e85d7cbb7a8b24)
 2.4346% Supply 
 
-: Charity Wallet : 0x
+: Charity Wallet : [0x426df8730370220B4Ca07D8C2cC8549bcBc4D26f](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0x426df8730370220B4Ca07D8C2cC8549bcBc4D26f)
 2.4346% Supply 
 
 - LP Wallet excluded from fee - [TXN: 0x423899780ef66280feea0a25a97d07139509cecc170f09d937f5a290972e9646](https://bscscan.com/tx/0x423899780ef66280feea0a25a97d07139509cecc170f09d937f5a290972e9646)
@@ -36,14 +36,14 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 - Team Wallet excluded from reward - [TXN: 0xc0225bcfacac33193ef6163fbddaea8bac6f58f3429030fd55eceef223d63683](https://bscscan.com/tx/0xc0225bcfacac33193ef6163fbddaea8bac6f58f3429030fd55eceef223d63683) (will undo in 3mo when unlocking tokens if we are going to remove them to the wallet at that time)
 - Marketing Wallet excluded from fee - [TXN: 0xd5598555588b37bf24452aceecfe87e4a5fbcbf7726e7d3bd7c87e6f2b59a3be](https://bscscan.com/tx/0xd5598555588b37bf24452aceecfe87e4a5fbcbf7726e7d3bd7c87e6f2b59a3be)
 - Team Wallet Tokens locked in Unicrypt - https://bscscan.com/tx/0x9bb6fa5c0e436ebc73e399dcd6257d8b78288114db0a27f11ace6cf33022cdf6
-- Charity Wallet excluded from fee - TXN:
+- Charity Wallet excluded from fee - [TXN: 0x807b122000082cb939f7e36fad1729afba2e5fed757e50e7a3b12164da25a1ef](https://bscscan.com/tx/0x807b122000082cb939f7e36fad1729afba2e5fed757e50e7a3b12164da25a1ef)
 
-LP, Team, Marketing sent. Awaiting charity address. Team funds locked until 22 August 2021. Need smart contract for LP wallet.
+LP, Team, Marketing, Charity sent. Team funds locked until 22 August 2021. Need smart contract for LP wallet.
 
 - 73036520113.5 $DUI [sent to LP Wallet](https://bscscan.com/tx/0xbc42234d56ad38ea4e90f685c9cc2523b90ee4276db9060034edd7a8927cf41d)
 - 73036520113.5 $DUI [sent to Team Wallet](https://bscscan.com/tx/0x90c5ce372014afcf1cd2a6eaffa1912b5c93a2f89f74dc16a067a4d5ffade8f3)
 - 73036520113.5 $DUI [sent to Marketing Wallet](https://bscscan.com/tx/0xa58d20d475bc4d23068190166b6e59ae76daea5431ed6713b0a50673fe08bff4)
-- 73037115594.989 $DUI sent to Charity Wallet - 
+- 73037115594.989 $DUI [sent to Charity Wallet](https://bscscan.com/tx/0x739f68dd2a3d92c53e82a4b65fc3922f8741411c4eedcb9776d1b15234fb3186)
 
 In the [Token Contract](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0x8943b6d1677a4addbe5aa58f429e11e856746fba) there is 243,687,627,873.814151461 $DUI, or approx 7% of the supply stuck/burned from an issue during launch. We do not have any function in the contract that allows us to withdraw BEP20 tokens, only stuck BNB - because this has never occured during testing. This allows us to start off with a lower supply then initially anticipated. We have also asked TechRate, and others to look into and confirm this, we intend to have a secondary audit + around the ```swapAndLiquify``` issue so that we can release a proper technical breakdown.
 
