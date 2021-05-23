@@ -1,6 +1,6 @@
 # DuiToken
 
-DúiToken - 3% to LP, 3% Distributed, 3T supply
+DúiToken - 3% Holder Rewards, 3T supply (>10% burned, progressive burn)
 
 ## $DÚINOMICS
 
@@ -16,10 +16,10 @@ Each transaction of $DÚI generates Passive Income to the holders.
 3% of all transactions (transfers, buys and sells) go back to the holders, and the size of your REWARD is proportional to the size of your bag. 
 That is: The more you hold, the more you earn.
 
-3% of all transactions are automatically sent to the liquidity pool to ensure more sustainable prices & liquidity moving forward. (/Encourage higher bottoms & tops)
+3% of all reward transactions are automatically sent to the liquidity pool to ensure more sustainable prices & liquidity moving forward. (/Encourage higher bottoms & tops)
 
 The Total Supply is 3,000,000,000,000 $DUI.
-Transactions are limited to 0.5% of the total supply. (15B/3T tokens)
+Transactions are limited to 1% of the total supply. (30B/3T tokens)
 
 Read more on how to take care of $DÚI @ [DuiCrypto.com](https://DuiCrypto.com)
 
@@ -33,7 +33,7 @@ The TechRate Audit details can be found [in the repo here](https://github.com/Du
 ## Repo Notes
 [DuiToken Respository Root](https://github.com/DuiToken/DuiToken)
 
-Note - the above info is from prelaunch and to be updated. See below for dev notes.
+Note - the above info is partially from prelaunch and to be updated. See below link for dev notes.
 
 [Dev contract, presale & tokenomics Notes](https://github.com/DuiToken/DuiToken/tree/master/contract)
 
