@@ -50,6 +50,8 @@ In the [Token Contract](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e
 
 There is also a progressive burn - we sent 90,000,000,000 $DUI (3%/supply) to the BSC universal burning wallet ```0x0000000000000000000000000000000000000001``` - you can see this growing [here](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0x0000000000000000000000000000000000000001) . At time of this note it is at 94,639,177,187.849053671 $DUI . This causes $DUI to be more and more deflationary over time as we have no ability to mint new tokens .
 
+You can find the Pancakeswap Liquidity Pool Locker [at DXsale here](https://dxsale.app/app/pages/dxlockview?id=1454&add=0&type=lpdefi&chain=BSC). After 21/11/2021, we will decide what is best moving forward - whether to relock all. This will depend on project growth, and future potential listings etc. (Likely burn 50% of LP tokens when they unlock)
+
 
 ## Licence
 
