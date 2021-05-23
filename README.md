@@ -33,7 +33,9 @@ The TechRate Audit details can be found [in the repo here](https://github.com/Du
 ## Repo Notes
 [DuiToken Respository Root](https://github.com/DuiToken/DuiToken)
 
-Note - the above info is partially from prelaunch and to be updated. See below link for dev notes.
+Note - the above info is partially from prelaunch and to be updated. Fully updated branding, tokenomics & info to come with announcements soon. 
+
+See below link for dev notes.
 
 [Dev contract, presale & tokenomics Notes](https://github.com/DuiToken/DuiToken/tree/master/contract)
 
