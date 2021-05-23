@@ -26,7 +26,7 @@ Read more on how to take care of $DÚI @ [DuiCrypto.com](https://DuiCrypto.com)
 ![Dui](https://github.com/DuiToken/DuiToken/blob/master/assets/Dui2.jpg)
 
 ### Contract & Audit 
-All logic for $DUI is built within the genesis smart contract ```DuiToken.sol``` the only external interaction with is the PancakeSwap V2 Router / LP.
+All logic for $DUI is built within the genesis smart contract ```DuiToken.sol``` the only external interaction in our code is with the PancakeSwap V2 Router / LP.
 
 The TechRate Audit details can be found [in the repo here](https://github.com/DuiToken/DuiToken/tree/master/audit).
 
@@ -35,7 +35,7 @@ The TechRate Audit details can be found [in the repo here](https://github.com/Du
 
 Note - the above info is partially from prelaunch and to be updated. Fully updated branding, tokenomics & info to come with announcements soon. 
 
-See below link for dev notes.
+See below for dev notes.
 
 [Dev contract, presale & tokenomics Notes](https://github.com/DuiToken/DuiToken/tree/master/contract)
 
