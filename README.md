@@ -37,7 +37,7 @@ Note - the above info is partially from prelaunch and to be updated. Fully updat
 
 See below for dev notes.
 
-[Dev contract, presale & tokenomics Notes](https://github.com/DuiToken/DuiToken/tree/master/contract)
+[Dev contract, presale & tokenomics notes](https://github.com/DuiToken/DuiToken/tree/master/contract)
 
 ## Join Us
 [Join our telegram](https://t.me/DuiCoinOfficial) to be the first in the know about any news!
