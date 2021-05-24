@@ -19,7 +19,7 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ~ noted 23/5/21
 - Bought $DUI using a portion of the marketing fund via the owner wallet to pay for a partnership [TXN](https://bscscan.com/tx/0xd8b6318b5e2cf2d8950ae33fa3427c4fab993ea333f2d99cca00b79e56188850)
 ~ noted 24/5/21
-- Tax will be increased to 8% at 12:00pm UTC today, to explain the new solution we have come up with; 2.4346% out of the 8% tax (on each transaction) will go to to each of the wallets mentioned below (because they are also holders) to allow $DUI to continuously provide liquidity, donate to charity, keep up marketing etc. 
+- Tax will be increased to 8% at 12:00pm UTC today, to explain the new solution we have come up with; 2.4346% out of the 8% tax (on each transaction) will go to to each of the wallets mentioned below (because they are token holders) to allow $DUI to continuously provide liquidity, donate to charity, keep up marketing etc. 
 ~ noted 25/5/21
 
 ### Team Token Distribution
