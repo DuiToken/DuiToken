@@ -17,6 +17,8 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ~ noted 22/5/21
 - Adjusted Max TX to 1% to bring it in line with the initial plans for the token, and help mitigate whales.
 ~ noted 23/5/21
+- Bought $DUI using a portion of the marketing fund via the owner wallet to pay for a partnership [TXN](https://bscscan.com/tx/0xd8b6318b5e2cf2d8950ae33fa3427c4fab993ea333f2d99cca00b79e56188850)
+~ noted 24/5/21
 
 ### Team Token Distribution
 
