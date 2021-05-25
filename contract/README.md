@@ -21,6 +21,8 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ~ noted 24/5/21
 - Tax will be increased to 8% at 12:00pm UTC today, to explain the new solution we have come up with; 2.4346% out of the 8% tax (8%×2.4346=0.194768%) will go to each of the wallets mentioned below (as they are holders) to allow $DUI to continuously provide liquidity, donate to charity, keep up marketing etc. 
 ~ noted 25/5/21
+- The team decided it’s best to give everyone 48 hours from the initial time before the 8% tax/holder reward goes live to ensure everyone has ample time to understand and digest the increase in tax + to give more time to utilise this as an opportunity to pull in new holders etc. 8% tax/reward change time - 05/27 12PM UTC 
+~ noted 25/5/21
 
 ### Team Token Distribution
 
@@ -65,6 +67,9 @@ Manual LP transaction logs
 - [Traded ```449,022,570 $DUI``` for ```0.357889749159092353 BNB``` ](https://bscscan.com/tx/0x5ed539fbc656c508d2f0fd2fdec124bcf8d9a95e68b6e9d324a77ba30532ea64)
 - [Added $DUI+BNB to LP for 0.383** Cake-LP](https://bscscan.com/tx/0x459521d32f98064e608a5a2cb6dc79ea48937539172d80aa9ee910cace825ba5)
 - [Sent 0.383** Cake-LP tokens to BSC burn address](https://bscscan.com/tx/0x043ab0cbba0d717528c68003843215d84dcd32a2d1bbda9dadd866685d55d2bd)
+- [Traded ```36,233,300 $DUI``` for ```0.023320620838051676 BNB``` ](https://bscscan.com/tx/0xeac6811b2e2ac7c3b613fde75845e5dd4ad05def3944ca9162c174fd0acb0486)
+- [Added $DUI+BNB to LP for 0.023** Cake-LP](https://bscscan.com/tx/0xa9b8ea8ec077a43c5f16823ca21337e1d14e01e51c6d6b03ae70eaccc46701d3)
+- [Sent 0.023** Cake-LP tokens to BSC burn address](https://bscscan.com/tx/0xbed725eae66ec8877a7c005cb95e6b2cb895b1c1601df3a21b380c7d0712ec32)
 
 ## Licence
 
