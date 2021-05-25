@@ -58,6 +58,13 @@ There is also a progressive burn - we sent 90,000,000,000 $DUI (3%/supply) to th
 
 You can find the Pancakeswap Liquidity Pool Locker [at DXsale here](https://dxsale.app/app/pages/dxlockview?id=1454&add=0&type=lpdefi&chain=BSC). After 21/11/2021, we will decide what is best moving forward - whether to relock all. This will depend on project growth, and future potential listings etc. (Likely burn 50% of LP tokens when they unlock regardless)
 
+### LP Log
+Manual LP transaction logs
+
+25/5/21 
+- [Traded ```449,022,570 $DUI``` for ```0.357889749159092353 BNB``` ](https://bscscan.com/tx/0x5ed539fbc656c508d2f0fd2fdec124bcf8d9a95e68b6e9d324a77ba30532ea64)
+- [Added $DUI+BNB to LP](https://bscscan.com/tx/0x459521d32f98064e608a5a2cb6dc79ea48937539172d80aa9ee910cace825ba5)
+- [Sent 0.383** Cake-LP tokens to BSC burn address](https://bscscan.com/tx/0x043ab0cbba0d717528c68003843215d84dcd32a2d1bbda9dadd866685d55d2bd)
 
 ## Licence
 
