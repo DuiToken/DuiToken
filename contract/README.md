@@ -23,7 +23,7 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ~ noted 25/5/21
 - The team decided it’s best to give everyone 48 hours from the initial time before the 8% tax/holder reward goes live to ensure everyone has ample time to understand and digest the increase in tax + to give more time to utilise this as an opportunity to pull in new holders etc. 8% tax/reward change time - 05/27 12PM UTC 
 ~ noted 25/5/21
-- Removed liquidity from $3X3 token to avoid people buying it unknowingly [TXN](https://bscscan.com/tx/0xecdc7968f3920eedd2a3b4a36176f2e615ee08b808888866700666159c721d95)
+- Removed liquidity from $3X3 example/proof token to avoid people buying it unknowingly - [TXN](https://bscscan.com/tx/0xecdc7968f3920eedd2a3b4a36176f2e615ee08b808888866700666159c721d95)
 ~ noted 27/5/21
 
 ### Team Token Distribution
@@ -71,7 +71,11 @@ Manual LP transaction logs
 - [Sent 0.383** Cake-LP tokens to BSC burn address](https://bscscan.com/tx/0x043ab0cbba0d717528c68003843215d84dcd32a2d1bbda9dadd866685d55d2bd)
 - [Traded ```36,233,300 $DUI``` for ```0.023320620838051676 BNB``` ](https://bscscan.com/tx/0xeac6811b2e2ac7c3b613fde75845e5dd4ad05def3944ca9162c174fd0acb0486)
 - [Added $DUI+BNB to LP for 0.023** Cake-LP](https://bscscan.com/tx/0xa9b8ea8ec077a43c5f16823ca21337e1d14e01e51c6d6b03ae70eaccc46701d3)
-- [Sent 0.023** Cake-LP tokens to BSC burn address](https://bscscan.com/tx/0xbed725eae66ec8877a7c005cb95e6b2cb895b1c1601df3a21b380c7d0712ec32)
+- [Sent 0.0519** Cake-LP tokens to BSC burn address](https://bscscan.com/tx/0xbed725eae66ec8877a7c005cb95e6b2cb895b1c1601df3a21b380c7d0712ec32)
+27/5/21
+- [Traded ```90,777,200 $DUI``` for ```0.068682513436992615 BNB``` ](https://bscscan.com/tx/0xd206424f714b469de9c724bf96ccfd170010dc436d47c61857aea87286946b9e)
+- [Added $DUI+BNB to LP for 0.075** Cake-LP](https://bscscan.com/tx/0xbf55341868ee2d8f61c95d0eccde7f936196f97cc814d6b9a937a1ca077cebbb)
+- [Sent 0.075** Cake-LP tokens to BSC burn address](https://bscscan.com/tx/0x8a494dde20f4e4939f58deb1ff9b9e5d46ea6b50e8a65e59d8896319297d9843)
 
 ## Licence
 
