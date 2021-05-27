@@ -23,6 +23,8 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ~ noted 25/5/21
 - The team decided it’s best to give everyone 48 hours from the initial time before the 8% tax/holder reward goes live to ensure everyone has ample time to understand and digest the increase in tax + to give more time to utilise this as an opportunity to pull in new holders etc. 8% tax/reward change time - 05/27 12PM UTC 
 ~ noted 25/5/21
+- Removed liquidity from $3X3 token to avoid people buying it unknowingly [TXN](https://bscscan.com/tx/0xecdc7968f3920eedd2a3b4a36176f2e615ee08b808888866700666159c721d95)
+~ noted 27/5/21
 
 ### Team Token Distribution
 
