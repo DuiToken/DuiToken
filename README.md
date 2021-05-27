@@ -13,13 +13,14 @@ $DÚI tokenomics are based on 4 main strengths:
     . Fair transactions
 
 Each transaction of $DÚI generates Passive Income to the holders.
-3% of all transactions (transfers, buys and sells) go back to the holders, and the size of your REWARD is proportional to the size of your bag. 
+8% of all transactions (transfers, buys and sells) go back to the holders, and the size of your REWARD is proportional to the size of your bag. 
 That is: The more you hold, the more you earn.
 
-3% of all reward transactions are automatically sent to the liquidity pool to ensure more sustainable prices & liquidity moving forward. (/Encourage higher bottoms & tops)
+A portion of all reward transactions are automatically sent to the liquidity wallet (which is also a holder @ 2.4*%) to ensure more sustainable prices & liquidity moving forward. (/Encourage higher bottoms & tops)
 
 The Total Supply is 3,000,000,000,000 $DUI.
 Transactions are limited to 1% of the total supply. (30B/3T tokens)
+Currently there is over 349bil/3000bil DUI burned. $DUI has a deflationary, progressively increasing burn via the [BSC burn wallet](https://bscscan.com/token/0x8943b6d1677a4addbe5aa58f429e11e856746fba?a=0x0000000000000000000000000000000000000001).
 
 Read more on how to take care of $DÚI @ [DuiCrypto.com](https://DuiCrypto.com)
 
