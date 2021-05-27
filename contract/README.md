@@ -65,6 +65,7 @@ There is also a progressive burn - we sent 90,000,000,000 $DUI (3%/supply) to th
 You can find the Pancakeswap Liquidity Pool Locker [at DXsale here](https://dxsale.app/app/pages/dxlockview?id=1454&add=0&type=lpdefi&chain=BSC). After 21/11/2021, we will decide what is best moving forward - whether to relock all. This will depend on project growth, and future potential listings etc. (Likely burn 50% of LP tokens when they unlock regardless)
 
 ### LP Log
+[DXsale LP lock](https://dxsale.app/app/pages/defipresale?saleID=1454&chain=BSC)
 Manual LP transaction logs
 
 25/5/21 
