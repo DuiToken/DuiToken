@@ -25,6 +25,8 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ~ noted 25/5/21
 - Removed liquidity from $3X3 example/proof token to avoid people buying it unknowingly - [TXN](https://bscscan.com/tx/0xecdc7968f3920eedd2a3b4a36176f2e615ee08b808888866700666159c721d95)
 ~ noted 27/5/21
+- $DUI Tax / Holder Reward raised from 3% to 8% @ 12:00 UTC - [TXN](https://bscscan.com/tx/0x318b933c6cca21077921b190ec9450aa1d7901cfa70436ebbce3091d848ce8b7)
+~ noted 27/5/21
 
 ### Team Token Distribution
 
