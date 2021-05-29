@@ -1,3 +1,7 @@
+- - - -
+#### [Root](https://github.com/DuiToken/DuiToken) | [Assets](https://github.com/DuiToken/DuiToken/tree/master/assets) | [Audit](https://github.com/DuiToken/DuiToken/tree/master/audit) | [```Contract & Dev Notes```](https://github.com/DuiToken/DuiToken/tree/master/contract) | [LP Wallet log](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md)
+- - - -
+
 # DúiToken Contract & Related Notes
 
 All logic for $DUI is built within the genesis smart contract ```DuiToken.sol``` the only external interaction with is the PancakeSwap V2 Router / LP.
