@@ -70,7 +70,7 @@ You can find the Pancakeswap Liquidity Pool Locker [at DXsale here](https://dxsa
 
 Currently the LP wallet transactions are being done manually until the automation is implemented. You can find the dev TX logs at the below link.
 
-[Manual LP transaction logs can be viewed in the LP-log.md](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md)
+[Manual LP transaction logs can be viewed in the LP-Wallet-log.md](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md)
 
 ## Licence
 
