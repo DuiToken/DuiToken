@@ -4,7 +4,7 @@
 
 # DuiToken Assets
 
-Images used in the repo are placed in here. Will update with some community assets & more in future.
+Images used in the repo, or for listings etc are placed in here. Will update with some community assets & more in future.
 
 ## Licence
 
