@@ -1,6 +1,6 @@
 # DuiToken
 
-DúiToken - 3% Holder Rewards, 3T supply (>10% burned, progressive burn)
+DúiToken - 8% Holder Rewards, 3T supply (>10% burned, progressive burn)
 
 ## $DÚINOMICS
 
