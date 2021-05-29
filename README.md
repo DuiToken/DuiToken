@@ -2,6 +2,9 @@
 
 DúiToken - 8% Holder Rewards, 3T supply (>10% burned, progressive burn)
 
+### Navigate Repo
+[DuiToken Root](https://github.com/DuiToken/DuiToken) | [Assets](https://github.com/DuiToken/DuiToken/tree/master/assets) | [Audit](https://github.com/DuiToken/DuiToken/tree/master/audit) | [Contract & Dev Notes](https://github.com/DuiToken/DuiToken/tree/master/contract) | [LP Wallet log](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md)
+
 ## $DÚINOMICS
 
 Made for an eternal PUMP.
@@ -32,8 +35,6 @@ All logic for $DUI is built within the genesis smart contract ```DuiToken.sol```
 The TechRate Audit details can be found [in the repo here](https://github.com/DuiToken/DuiToken/tree/master/audit).
 
 ## Repo Notes
-[DuiToken Respository Root](https://github.com/DuiToken/DuiToken)
-
 Note - the above info is partially from prelaunch and to be updated. Fully updated branding, tokenomics & info to come with announcements soon. 
 
 See below for dev notes.
