@@ -1,3 +1,7 @@
+- - - -
+#### [Root](https://github.com/DuiToken/DuiToken) | [Assets](https://github.com/DuiToken/DuiToken/tree/master/assets) | [```Audit```](https://github.com/DuiToken/DuiToken/tree/master/audit) | [Contract & Dev Notes](https://github.com/DuiToken/DuiToken/tree/master/contract) | [LP Wallet log](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md)
+- - - -
+
 # DuiToken Audit
 
 The inital audit completed by TechRate found a minor issue (The function ```includeInReward``` uses a loop to find and remove addresses from the ```_excluded``` list. We added a hard limit to mitigate for any possible gas error if excluding too many wallets - this was only a minor warning). 
