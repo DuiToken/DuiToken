@@ -1,6 +1,6 @@
 - - - -
 #### 
-![Dui32](https://raw.githubusercontent.com/DuiToken/DuiToken/master/assets/Dui-icon.png) [Root](https://github.com/DuiToken/DuiToken) | [Assets](https://github.com/DuiToken/DuiToken/tree/master/assets) | [Audit](https://github.com/DuiToken/DuiToken/tree/master/audit) | [Contract & Dev Notes](https://github.com/DuiToken/DuiToken/tree/master/contract) | [```LP Wallet log```](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md)
+![Dui32](https://raw.githubusercontent.com/DuiToken/DuiToken/master/assets/Dui-icon.png | width=12) [Root](https://github.com/DuiToken/DuiToken) | [Assets](https://github.com/DuiToken/DuiToken/tree/master/assets) | [Audit](https://github.com/DuiToken/DuiToken/tree/master/audit) | [Contract & Dev Notes](https://github.com/DuiToken/DuiToken/tree/master/contract) | [```LP Wallet log```](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md)
 - - - -
 
 # DúiToken Liquidity Pool Wallet Log
