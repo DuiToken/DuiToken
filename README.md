@@ -42,7 +42,7 @@ See below for dev notes.
 
 Currently the LP wallet transactions are being done manually until the automation is implemented. You can find the dev TX logs at the below link.
 
-[LP-log.md](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md)
+[LP-Wallet-log.md](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md)
 
 ## Join Us
 [Join our telegram](https://t.me/DuiCoinOfficial) to be the first in the know about any news!
