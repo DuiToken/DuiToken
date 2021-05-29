@@ -1,5 +1,5 @@
 - - - -
-#### [Root](https://github.com/DuiToken/DuiToken) | [Assets](https://github.com/DuiToken/DuiToken/tree/master/assets) | [Audit](https://github.com/DuiToken/DuiToken/tree/master/audit) | [Contract & Dev Notes](https://github.com/DuiToken/DuiToken/tree/master/contract) | [LP Wallet log](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md) | [```Project Dev```](https://github.com/DuiToken/DuiToken/tree/master/project-dev)
+#### [<img src="https://raw.githubusercontent.com/DuiToken/DuiToken/master/assets/Dui-icon.png" width="12" height="12" /> Root](https://github.com/DuiToken/DuiToken) | [Assets](https://github.com/DuiToken/DuiToken/tree/master/assets) | [Audit](https://github.com/DuiToken/DuiToken/tree/master/audit) | [Contract & Dev Notes](https://github.com/DuiToken/DuiToken/tree/master/contract) | [LP Wallet log](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md) | [```Project Dev```](https://github.com/DuiToken/DuiToken/tree/master/project-dev)
 - - - -
 
 # DúiToken Project Development
