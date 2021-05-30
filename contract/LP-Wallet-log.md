@@ -4,7 +4,7 @@
 
 # DúiToken Liquidity Pool Wallet Log
 
-Currently the LP wallet transactions are being done manually until the automation is implemented. You can find the dev TX logs below.}
+Currently the LP wallet transactions are being done manually until the automation is implemented. You can find the dev TX logs below.
 
 [Back to Dev Notes/Contract](https://github.com/DuiToken/DuiToken/tree/master/contract)
 
