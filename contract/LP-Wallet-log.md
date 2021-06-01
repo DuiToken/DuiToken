@@ -44,6 +44,11 @@ Manual LP transaction logs
 - [Added $DUI+BNB to LP for 0.134** Cake-LP](https://bscscan.com/tx/0xdade0c935bfcc0ca4d45802fdcc3aeeeaa504af97a0d9d10fc78788301998ede)
 - [Sent 0.134** Cake-LP tokens to BSC burn address](https://bscscan.com/tx/0x8dd7c304210e9acc0ead28cb91f8ca1b312d27b86f56ccc92a50dbd1ab646b04)
 
+1/6/21
+- [Traded ```234,885,876.859 $DUI``` for ```0.214589109374373606 BNB``` ](https://bscscan.com/tx/0x67670b578bd539343b8ce8b1e9d38157a988dc974c9e08e67b65894f774a4ffa)
+- [Added $DUI+BNB to LP for 0.207** Cake-LP](https://bscscan.com/tx/0x705c1d7dbda8076cb3848d7f56e601add4ae92fec69e3156ef3951bf1f2bf006)
+- [Sent 0.207** Cake-LP tokens to BSC burn address](https://bscscan.com/tx/0x9e9dcc0964b67149adeb8a56a5edfaf3b4b3443c32d8624bc50dcd5a24e50d02)
+
 ## Licence
 
 The contents of this repo are licensed under Apache-2.0. See [LICENCE](https://github.com/DuiToken/DuiToken/blob/master/LICENSE).
