@@ -33,6 +33,8 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ~ noted 27/5/21
 - Moved LP logs to their own file to tidy up the devnotes - [LP-Wallet-log.md](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md)
 ~ noted 28/5/21
+- Excluded Charity [TXN](https://bscscan.com/tx/0x18cda37e2c5f8a7e94a88d08e3c65bccfce0cfb70a77a613007b3a69d449ae73), LP [TXN](https://bscscan.com/tx/0xc32f0d26a780cbebc2d1b5c6081f7e3703f08984f11ca4442464da9898063a1e) and Marketing [TXN](https://bscscan.com/tx/0xed1001fef27eb5d77a324b8dd6180a5d6e2c251be6e9b75d5d0e3c9b28b4f79c) wallets from paying fees, as that makes more sense moving forward.
+~ noted 03/6/21
 
 ### Team Token Distribution
 
