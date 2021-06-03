@@ -37,7 +37,7 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ~ noted 3/6/21
 - I’ve just noticed a team member mentioned that the team wallet doesn't receive rewards, just noting here that it does for transparency sake. This will also help fund Dev and etc, but we have full intentions to HODL and utilise/pay people with the rewards, this is part of our long term plan.
 ~ noted 3/6/21
-- Started work on token info + reward calculation dashboard. Aiming to have a simple version live by some point next month. Hopefully I have decent time I can put into the Dev for this over this month, but either way - will incrementally improve as we progress & eventually come to integrate it & the new website (also planned) with the rest of our planned dApp ecosystem.
+- Started work on token info + reward calculation dashboard. Aiming to have a simple version live by some point next month. Hopefully I have decent time I can put into the Dev for this over this month, but either way - will incrementally improve as we progress & eventually come to integrate it & the new website (also planned) with the rest of our intended dApp ecosystem.
 ~ noted 3/6/21
 - Created a medium post explaining some of the $DUI tokenomics and thinking behind them - [Medium link](https://duicoin.medium.com/the-journey-to-creating-tokenomics-for-holder-loyalty-and-continuous-wealth-generation-ae983e761138)
 ~ noted 3/6/21
