@@ -63,6 +63,11 @@ Manual LP transaction logs
 - [Traded ```201,861,432.923 $DUI``` for ```0.162389679398601606 BNB``` ](https://bscscan.com/tx/0x69a44e1bea710edca5060e10b76fada340fd7abbde25db778f2796b5677864d9)
 - [Added $DUI+BNB to LP for 0.170** Cake-LP](https://bscscan.com/tx/0x922b643b1929a84dec014d8cad8180d10a136332d5ee52ac46d8c4c458518d10)
 - [Sent 0.170** Cake-LP tokens to BSC burn address](https://bscscan.com/tx/0x1530d2df0226d9db8e46cd90cff87ac43bbaf0da12e4a41304ad6ba1705d0822)
+
+5/6/21
+- [Traded ```69,899,271.5665 $DUI``` for ```0.052805578887141734 BNB``` ](https://bscscan.com/tx/0x4edc43b416ce0d0cc13e9fbd6a6cf4429f207bd4a60df44cebfc3e0c80828053)
+- [Added $DUI+BNB to LP for 0.057** Cake-LP](https://bscscan.com/tx/0xd4870c258303f285c879cf7fa0901581ce404c6c0ec2f3b16a694958ad219388)
+- [Sent 0.057** Cake-LP tokens to BSC burn address](https://bscscan.com/tx/0x021973c831a32b807f14618f2695b05ebc0172e5772e2828c7facb42d3ea02ff)
 <!--
 ##/##/21
 - [Traded ``` $DUI``` for ``` BNB``` ]()
