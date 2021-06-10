@@ -41,6 +41,8 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ~ noted 3/6/21
 - Created a medium post explaining some of the $DUI tokenomics and thinking behind them - [Medium link](https://duicoin.medium.com/the-journey-to-creating-tokenomics-for-holder-loyalty-and-continuous-wealth-generation-ae983e761138)
 ~ noted 3/6/21
+- Created Node DuiToken API for Circulating Supply, Total Burned Tokens, 24h Volume (USD/BNB) & Price (USD/BNB), published basic documentation - [Documentation link](https://github.com/DuiToken/DuiToken/tree/master/project-dev/DuiToken-API). Will update the API if/as more is needed.
+~ noted 10/6/21
 
 
 ### Team Token Distribution
