@@ -71,9 +71,12 @@ Manual LP transaction logs
 
 6/6/21
 - Held off due to low 24h volume & price. Discussing with team regarding a potential strategy with liq injection at highs - this helps increase the pool and reduce dumps as we rise. Will edit this note / note details here when discussed later.
+
+10/6/21
+- Held off past days due to low volumes, [Traded ```200,000,000 $DUI``` for ```0.100262086927333265 BNB``` ](https://bscscan.com/tx/0x2df29ef2747ac4330e16df8aa27106af4bdd5f8136af03b5f674ee490e77e4b0), [Traded ```200,000,000 $DUI``` for ```0.100189172955454096 BNB``` ](https://bscscan.com/tx/0x2a4fafb9fb52c39e0b05172ea6871e71144c49d449553cd65ad1b819dae86b0a), [Traded ```221,879,887 $DUI``` for ```0.111064598438546808 BNB``` ](https://bscscan.com/tx/0x058dd60bfdd4690c1ddeb7dece3857fdb5cbb99538f5343638d06e3103294e1c) - did 3x to reduce price impact %. will insert into liquidity later at higher prices to encourage the price to hold higher, rather then creating a larger pool for the current lower price point.
 <!--
 ##/##/21
-- [Traded ``` $DUI``` for ``` BNB``` ]()
+- [Traded ```613708601.511 $DUI``` for ``` BNB``` ]()
 - [Added $DUI+BNB to LP for 0.** Cake-LP]()
 - [Sent 0.** Cake-LP tokens to BSC burn address]()
 -->
