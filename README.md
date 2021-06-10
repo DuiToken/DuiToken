@@ -31,7 +31,7 @@ Read more on how to take care of $DÚI @ [DuiCrypto.com](https://DuiCrypto.com)
 ![Dui](https://github.com/DuiToken/DuiToken/blob/master/assets/Dui2.jpg)
 
 ### Contract & Audit 
-All logic for $DUI is built within the genesis smart contract ```DuiToken.sol``` the only external interaction in our code is with the PancakeSwap V2 Router / LP.
+All logic for $DUI is built within the genesis smart contract ```DuiToken.sol``` the only external interaction in our code is with the PancakeSwap V2 Router / LP (which is now no longer in use due to $DUI's new tokenomics structure).
 
 The TechRate Audit details can be found [in the repo here](https://github.com/DuiToken/DuiToken/tree/master/audit).
 
@@ -42,9 +42,9 @@ See below for dev notes.
 
 [Dev contract, presale & tokenomics notes](https://github.com/DuiToken/DuiToken/tree/master/contract)
 
-Currently the LP wallet transactions are being done manually until the automation is implemented. You can find the dev TX logs at the below link.
+Currently the LP wallet transactions are being done manually until the automation is implemented. You can find the dev TX logs [here at the LP-Wallet-log.md](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md)
 
-[LP-Wallet-log.md](https://github.com/DuiToken/DuiToken/blob/master/contract/LP-Wallet-log.md)
+DuiToken API for circulating supply, total burned tokens, 24 volume (USD/BNB), price (USD/BNB) for dApps and integrations - [Documentation](https://github.com/DuiToken/DuiToken/tree/master/project-dev/DuiToken-API)
 
 ## Join Us
 [Join our telegram](https://t.me/DuiCoinOfficial) to be the first in the know about any news!
