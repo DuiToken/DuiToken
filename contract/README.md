@@ -43,7 +43,9 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ~ noted 3/6/21
 - Created Node DuiToken API for Circulating Supply, Total Burned Tokens, 24h Volume (USD/BNB) & Price (USD/BNB), published basic documentation - [Documentation link](https://github.com/DuiToken/DuiToken/tree/master/project-dev/DuiToken-API). Will update the API if/as more is needed.
 ~ noted 10/6/21
-- Have spent a lot of time updating the stability of the DuiToken API, and working towards creating a stable & fast token dashboard. Have been working on dApp Dev, but shifting current focus to new website refresh (to ensure the project has easily accessible/understandable clear information around what and who we are / why / our idea) - currently most people just think "memetoken". Next medium article soon to be published, which covers some of our dApp goals/roadmap/plans & future ideals. 
+- Most dev/project work done is in private repos, so not visible here. Will keep noting what I can as there is progress. Some will be published publicly & open source, otherwise there will be documentation added as functionality and dApps etc are set up/released.
+~ noted 19/6/21
+- Have spent a lot of time updating the stability of the DuiToken API, and working towards creating a stable & fast token dashboard. Have been working on dApp Dev, but shifting current focus to new website refresh (to ensure the project has easily accessible/understandable clear information around what and who we are / why / our idea) - currently most people just think "memetoken". This seems to be the main issue for retaining investors. Next medium article soon to be published, which covers some of our dApp goals/roadmap/plans & future ideals.
 ~ noted 19/6/21
 
 
