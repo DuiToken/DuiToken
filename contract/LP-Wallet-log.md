@@ -74,6 +74,9 @@ Manual LP transaction logs
 
 10/6/21
 - Held off past days due to low volumes, [Traded ```200,000,000 $DUI``` for ```0.100262086927333265 BNB``` ](https://bscscan.com/tx/0x2df29ef2747ac4330e16df8aa27106af4bdd5f8136af03b5f674ee490e77e4b0), [Traded ```200,000,000 $DUI``` for ```0.100189172955454096 BNB``` ](https://bscscan.com/tx/0x2a4fafb9fb52c39e0b05172ea6871e71144c49d449553cd65ad1b819dae86b0a), [Traded ```221,879,887 $DUI``` for ```0.111064598438546808 BNB``` ](https://bscscan.com/tx/0x058dd60bfdd4690c1ddeb7dece3857fdb5cbb99538f5343638d06e3103294e1c) - did 3x to reduce price impact %. will insert into liquidity later at higher prices to encourage the price to hold higher, rather then creating a larger pool for the current lower price point.
+
+19/6/21
+- [Traded ```1,039,240,517 $DUI``` for ```0.334481657038328215 BNB``` ](https://bscscan.com/tx/0x0363b51a5ceec55832baf145b47fbdbaf8b01c9d02e4efb746466d19e9eeafd2), left some rewards inside to keep it more even. Recent focus has been on creating meaningful content arond the proj. LP to be added at higher price points later to maintain higher prices & will be automated in future.
 <!--
 ##/##/21
 - [Traded ```613708601.511 $DUI``` for ``` BNB``` ]()
