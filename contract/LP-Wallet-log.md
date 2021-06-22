@@ -77,6 +77,9 @@ Manual LP transaction logs
 
 19/6/21
 - [Traded ```1,039,240,517 $DUI``` for ```0.334481657038328215 BNB``` ](https://bscscan.com/tx/0x0363b51a5ceec55832baf145b47fbdbaf8b01c9d02e4efb746466d19e9eeafd2), left some rewards inside to keep it more even. Recent focus has been on creating meaningful content arond the proj. LP to be added at higher price points later to maintain higher prices & will be automated in future.
+
+22/6/21
+- [Traded ```777,155,022.958 $DUI``` for ```0.202492538425720353 BNB``` ](https://bscscan.com/tx/0x9d0b1cb4943c0301d1043b7a1513f202bf32ff4914ec93ce8952b9572008499d), still awaiting price pump to insert/burn LP
 <!--
 ##/##/21
 - [Traded ```613708601.511 $DUI``` for ``` BNB``` ]()
