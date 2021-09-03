@@ -8,6 +8,8 @@ All logic for $DUI is built within the genesis smart contract ```DuiToken.sol```
 
 The TechRate Audit details can be found [in the repo here](https://github.com/DuiToken/DuiToken/tree/master/audit).
 
+: Final pieces are currently being put in place for DuiV2 & there will be a string of announcements coming in the near future :
+
 ## Triex Notes
 
 - At this point it seems like there was an issue with deploying part of the ```swapAndLiquify``` function when the token contract was spun up, could also be something to do with DXSale - I have come across this issue once during testing prior to launch, the contract was tested with LP in Pancakeswap multiple times, and all functions worked correctly. We also created another identical deployment with a different name which ran without issue, following the launch.
