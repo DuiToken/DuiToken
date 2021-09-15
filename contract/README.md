@@ -8,7 +8,7 @@ All logic for $DUI is built within the genesis smart contract ```DuiToken.sol```
 
 The TechRate Audit details can be found [in the repo here](https://github.com/DuiToken/DuiToken/tree/master/audit).
 
-: Final pieces are currently being put in place for DuiV2 & there will be a string of announcements coming in the near future :
+: Final pieces are currently being put in place for DuiV2 and there will be a string of announcements coming in the near future. Currently just awaiting some final decicions to be made by the team :
 
 ## Triex Notes
 
