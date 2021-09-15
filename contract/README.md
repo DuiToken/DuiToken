@@ -49,6 +49,8 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ~ noted 19/6/21
 - Have spent a lot of time updating the stability of the DuiToken API, and working towards creating a stable & fast token dashboard. Have been working on dApp Dev, but shifting current focus to new website refresh (to ensure the project has easily accessible/understandable clear information around what and who we are / why / our idea) - currently most people just think "memetoken". This seems to be the main issue for retaining investors. Next medium article soon to be published, which covers some of our dApp goals/roadmap/plans & future ideals.
 ~ noted 19/6/21
+- Dev focus shifted to Dui V2 over the past months - new token contract has been functioning as expected, Recovery Protocol functions with BNB, have been awaiting some final team decisions before relaunch.
+~ noted 15/9/21
 
 
 ### Team Token Distribution
