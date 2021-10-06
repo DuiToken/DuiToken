@@ -51,7 +51,7 @@ The functioning identical copy/test token can be found [here](https://bscscan.co
 ~ noted 19/6/21
 - Dev focus shifted to Dui V2 over the past months - new token contract has been functioning as expected, Recovery Protocol functions with BNB, have been awaiting some final team decisions before relaunch.
 ~ noted 15/9/21
-- Have transferred contract ownership from my wallet/address to DCryptoBOO / BOOLABS @ [0x1CfFD5Ec4c8d2077Df72060eb5ae3dFd4B8B024B](https://bscscan.com/tx/0x056923217cdf6d6c191c7eef99f2b33044d73b4f8bfa47d0954c81508be25a8d). Also gave private key to the creator wallet. Team is looking at potentially using liquidity pool when it unlocks as a backup to ensure we can fund NFTs and launch for V2 start, if so - it would be re-added to the LP after V2 is running. 
+- Have transferred contract ownership from my wallet/address to DCryptoBOO / BOOLABS @ [0x1CfFD5Ec4c8d2077Df72060eb5ae3dFd4B8B024B](https://bscscan.com/tx/0x056923217cdf6d6c191c7eef99f2b33044d73b4f8bfa47d0954c81508be25a8d). Team is looking at potentially using liquidity pool when it unlocks as a backup to ensure we can fund NFTs and launch for V2 start, if so - it would be re-added to the LP after V2 is running. 
 ~ noted 06/11/21
 - Gave up private key of the creator wallet, so BOO is now in control of the address. (Triex)
 ~ noted 06/11/21
